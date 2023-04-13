@@ -1,0 +1,59 @@
+.productDetails {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+.productDetails img {
+  max-width: 250px;
+  max-height: 350px;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.productDetails h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.productDetails p {
+  flex: 1;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.productDetails form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.productDetails textarea {
+  resize: none;
+  height: 100px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-family: Arial, sans-serif;
+}
+
+.productDetails button {
+  background-color: #007BFF;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.productDetails button:hover {
+  background-color: #0056B3;
+}
